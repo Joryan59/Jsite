@@ -1,6 +1,11 @@
 # Jsite
 
+---
+
 ### Joshua's site
-#### it's pretty cool
-##### this is a header 
+
+---
+
 ###### this is a smaller header :D
+
+```hi i am a block, and i'm a description``` 
