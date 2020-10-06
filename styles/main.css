@@ -1,4 +1,8 @@
 body { 
-    background-image: url("images/chopper.jpg");
-    font-size: 20px;
+    background: url("../images/chopper.jpg");
+    background-color: purple
+}
+
+h1 { 
+    color:green;
 }
