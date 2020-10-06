@@ -1,8 +1,17 @@
-body { 
+body {
     background: url("../images/chopper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: purple
 }
 
 h1 { 
     color:lightblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
