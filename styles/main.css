@@ -6,8 +6,32 @@ body {
     background-color: purple
 }
 
+@font-face { 
+    font-family: "aller";
+    src: url("../styles/aller.regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "splatfont2";
+    src: url("../styles/Splatfont2.ttf") format("truetype")
+}
+
 h1 { 
-    color:lightblue;
+    color: lightblue;
+    font-family: "splatfont2", serif;
+    font-size: 200%;
+} 
+
+h2 {
+    color: lightpink;
+    font-family: "aller", serif;
+    font-size: 150%;
+}
+
+p {
+    color: white;
+    font-family: "splatfont2", serif;
+    font-size: 100%;
 }
 
 .center {
