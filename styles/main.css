@@ -39,3 +39,15 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+ul {
+    
+}
+li {
+    float: center;
+}
+li a:hover:not(.active) {
+    background-color: lightgray;
+}
+.active { 
+    background-color: lightgreen;
+}

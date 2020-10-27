@@ -1,0 +1,44 @@
+function intro() {
+    alert("button pushed");
+}
+function name() {
+ let name = prompt("insert name");
+ alert("hello" + name);   
+}
+function colour() {
+   let colour = prompt("what colour am i thinking? Red, green, or blue?");
+   if (colour === "green") { 
+    alert("Correct"); 
+   } else { 
+       alert("Incorrect");
+   }
+function foundme() {
+    console.log(yahahaha); 
+    alert("check the console")
+}
+function seasonsandday() {
+    let birthday = prompt("What is your birthday");
+    let season = prompt("What is your favourite season");
+    document.getElementById('seasondays').innerHTML = birthday, season;
+    
+}
+function math() {
+    return 5 * 45; 
+    
+}
+function name(params) {
+    
+}
+function name(params) {
+    
+}
+function name(params) {
+    
+}
+function signs() {
+    var S2signs = ["squid", "octopus", "salmon"];
+
+    document.getElementById("UWsigns").innerHTML = S2signs;
+} 
+} 
+ 
