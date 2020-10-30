@@ -5,9 +5,9 @@ function helloname(){
  let name = prompt("insert name");
  alert("hello " + name);   
 }
-function colour(){
+function colourname(){
    let colour = prompt("what colour am i thinking? Red, green, or blue?");
-   if (colour === "green") { 
+   if (colour == "green") { 
     alert("Correct"); 
    } else { 
        alert("Incorrect");
@@ -24,7 +24,7 @@ function seasonsandday() {
 }
 function math(){
     return 5 * 45; 
-    document.getElementById(math).innerHTML = return;
+    document.getElementById(math).innerHTML = math;
     
 }
 function name(params) {
@@ -36,7 +36,7 @@ function name(params) {
 function name(params) {
     
 }
-function signs(){
+function UWS2signs(){
     var S2signs = ["squid", "octopus", "salmon"];
 
     document.getElementById("UWsigns").innerHTML = S2signs;
